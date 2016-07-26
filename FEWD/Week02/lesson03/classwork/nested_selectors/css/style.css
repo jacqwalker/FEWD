@@ -1,0 +1,14 @@
+body {
+  font-family: georgia, serif;
+  line-height: 1.5;
+  margin: 3em;
+  color: #888;
+}
+
+em, h1 {
+  color: black;
+}
+
+blockquote p em {
+  font-style: normal;
+}
