@@ -9,25 +9,9 @@ h2 {
 
 nav {
   text-align: center;
-  color: white;
   font-weight: bold;
-}
-
-.links {
-  text-align: center;
-  margin-left: 300px;
 }
 
 .picture {
   float: right;
-}
-
-h3 {
-  color: red;
-  font-weight: bold;
-  font-family: Verdana;
-}
-
-.header {
-  background-color: 	#000080;
 }
