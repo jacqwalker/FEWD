@@ -63,25 +63,54 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 33%;
-
+  height: 500px;
+  display: block;
 }
 
 header {
 
 }
 
-h1 {
-  color: white;
-  font-family: Open Sans;
-  font-size: 24px;
-  font-weight: bold;
-  margin-left: 50px;
-  margin-top: 10px;
-}
-
 h3 {
   background-color: #f0efef
+}
+
+.benefits {
+  background-color: #f0efef;
+}
+
+blockquote {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 40px;
+  margin-left: 460px;
+  margin-right: 460px;
+  }
+
+.reference1 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.reference2 {
+  font-weight: 400;
+}
+
+.box2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 2px 25px;
+  border: 5px solid black;
+  display: inline-block;
+  margin-left: 40%;
+  margin-right: 40%;
+  }
+
+.box2style {
+  background-color: #f9e42e;
+  padding: 20px;
 }
 
 footer {
