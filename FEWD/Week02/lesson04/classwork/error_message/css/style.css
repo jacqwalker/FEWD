@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 30px;
+}
+
+/*#notification {
+  background-color: #EEE;
+  padding: 10px;
+  border: 2px solid #CCC;
+}
+*/
+
+.message {
+  background-color: #FFE;
+  padding: 10px;
+  border: 2px solid #CCB;
+  margin: 10px 0 10px 0;
+  }
+
+.notification {
+  background-color: #EEE;
+  border-color:#CCC;
+  }
+
+.error {
+  background-color: #FEE;
+  border-color: #C66;
+}
+
+.success {
+  background-color: #e6ffee;
+  border-color: #ccffdc;
+}
