@@ -1,4 +1,4 @@
-/*
+*/*
 Project Name: Blank Template
 Client: Your Client
 Author: Your Name
@@ -49,9 +49,10 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Open sans, Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
+     width: 100%;
 }
 
 
@@ -64,58 +65,118 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-  display: block;
 }
 
 header {
-
+  height: 500px;
 }
 
-h3 {
-  background-color: #f0efef
+h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 25px;
+  margin-left: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 75px;
+  margin-left: 250px;
+}
+
+.button-one {
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: #f9e42e;
+  border: 5px solid #f9e42e;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #033048;
 }
 
 .benefits {
   background-color: #f0efef;
+  height: 350px;
 }
 
-blockquote {
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  padding: 40px;
-  margin-left: 460px;
-  margin-right: 460px;
-  }
-
-.reference1 {
-  font-weight: lighter;
-  font-style: italic;
-}
-
-.reference2 {
-  font-weight: 400;
-}
-
-.box2 {
-  text-align: center;
-  color: white;
+h3 {
   font-weight: bold;
-  padding: 2px 25px;
-  border: 5px solid black;
-  display: inline-block;
-  margin-left: 40%;
-  margin-right: 40%;
+  font-size: 26px;
+  padding: 50px 0 20px 50px;
+  color: grey;
+}
+
+.benefits-para {
+  font-size: 20px;
+  width: 35%;
+  color: grey;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+li {
+  list-style: circle;
+  font-size: 16px;
+  color: grey;
+  margin-left: 100px;
   }
 
-.box2style {
+.reference-image {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 250px;
+}
+
+.reference-text-one {
+  color: white;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 500px;
+}
+
+.reference-text-two {
+  font-style: normal;
+  padding-top: 5px;
+}
+
+.block {
+  height: 75px;
   background-color: #f9e42e;
-  padding: 20px;
+  padding: 15px;
+}
+
+.block-text {
+  color: white;
+  background-color: #033048;
+  border-color: #033048;
+  font-size: 18px;
 }
 
 footer {
-
+  background-color: #121212;
+  height: 250px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.5;
 }
+
+#footer-heading {
+  color: #f9e42e;
+}
+
+.some-image {
+  padding: 10px 10px 30px 10px;
+  margin-top: -20px;
+  }
 
 /******************************************
 /* ADDITIONAL STYLES
