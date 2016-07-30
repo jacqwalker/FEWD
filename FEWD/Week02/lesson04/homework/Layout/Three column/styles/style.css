@@ -6,6 +6,15 @@ body {
   width: 100%;
 }
 
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
 header {
   background-color: #b30000;
   height: 100px;
@@ -18,17 +27,20 @@ header {
   height: 500px;
   width: 20%;
   border: 2px solid black;
-  display: inline-block;
   background-color: #3385ff;
   margin: 20px 0;
+  float: left;
 }
 
 .column-two {
   width: 60%;
+  margin-left: 10px;
 }
 
 .column-three {
-  width: 19%;
+  width: 18.5%;
+  float: right;
+  margin-left: 10px;
 }
 
 footer {
