@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background-color: #b30000;
+  height: 100px;
+  border: 2px solid #cc0000;
+  color: white;
+  text-align: center;
+}
+
+.column-one {
+  height: 500px;
+  width: 20%;
+  border: 2px solid black;
+  display: inline-block;
+  background-color: #3385ff;
+  margin: 20px 0;
+}
+
+.column-two {
+  width: 60%;
+}
+
+.column-three {
+  width: 19%;
+}
+
+footer {
+  background-color: #ff8533;
+  height: 100px;
+  border: 2px solid #ff751a;
+  color: white;
+  text-align: center;
+}
