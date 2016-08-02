@@ -48,6 +48,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
 }
 
 
@@ -56,13 +57,27 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
-}
 
 header {
+background-color: #121212;
+height: 75px;
+width: 100%;
+}
 
+h1 {
+color: white;
+font-size: 40px;
+font-weight: bolder;
+margin-left: 75px;
+float: left;
+padding: 10px 0;
+}
+
+nav {
+  font-size: 24px;
+  color: #f9e42e;
+  float: right;
+  padding: 50px;
 }
 
 footer {
