@@ -48,7 +48,7 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
   width: 100%;
 }
 
@@ -92,10 +92,14 @@ article {
   margin-left: 75px;
 }
 
+.article-layout {
+  float: left;
+}
+
 h2 {
   font-size: 36px;
   color: #033048;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 600px;
 }
 
@@ -122,6 +126,10 @@ h2 {
   font-weight: bold;
   color: #033048;
   margin-bottom: 20px;
+}
+
+aside {
+  width: 240px;
 }
 
 .button {
@@ -157,6 +165,7 @@ footer {
   color: #f9e42e;
   margin: 0 auto;
   padding: 20px;
+  font-weight: bold;
 }
 
 .some-image {
