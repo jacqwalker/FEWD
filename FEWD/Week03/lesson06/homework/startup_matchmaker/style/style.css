@@ -54,3 +54,28 @@ li {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.tag-line {
+  background-color: #cccccc;
+  padding: 10px;
+  font-size: 33px;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: #b3b3b3;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #f9e42e;
+}
+
+.image {
+  background: url(../images/coworking.jpg) no-repeat center top #b3b;
+  background-size: cover;
+  height: 500px;
+}
