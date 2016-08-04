@@ -87,19 +87,16 @@ li {
   padding: 30px 0;
   margin-right: 40px;
 }
-
-main {
-  margin-left: 75px;
-}
-
 article {
   width: 700px;
+  margin-left: 75px;
 }
 
 h2 {
   font-size: 36px;
   color: #033048;
   margin-top: 50px;
+  width: 600px;
 }
 
 .blog-one-photo {
@@ -131,6 +128,7 @@ h2 {
   background-color: #f9e42e;
   height: 75px;
   width: 100%;
+  padding: 12.5px 0;
 }
 
 .button-ext {
@@ -141,6 +139,8 @@ h2 {
   font-weight: bold;
   margin: 0 auto;
   padding: 10px;
+  border-radius: 5px;
+  height: 50px;
 }
 
 footer {
