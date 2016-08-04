@@ -144,7 +144,25 @@ h2 {
 }
 
 footer {
+  background-color: #121212;
+  height: 250px;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
 
+#footer-heading {
+  color: #f9e42e;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.some-image {
+  padding: 20px;
+}
+
+.copyright {
+  padding-top: 40px;
 }
 
 /******************************************
