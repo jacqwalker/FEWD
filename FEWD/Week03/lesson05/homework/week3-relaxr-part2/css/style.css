@@ -17,8 +17,7 @@ Developer @GA in NYC
 
 /* Clear fix hack */
 .clearfix:after {
-  content: ".";
-  display: block;
+  cdisplay: block;
   clear: both;
   visibility: hidden;
   line-height: 0;
@@ -71,7 +70,7 @@ font-size: 40px;
 font-weight: bolder;
 margin-left: 75px;
 float: left;
-padding: 10px 0;
+padding-top: 5px;
 }
 
 nav {
@@ -87,13 +86,14 @@ li {
   padding: 30px 0;
   margin-right: 40px;
 }
+
 article {
   width: 700px;
   margin-left: 75px;
 }
 
 .article-layout {
-  float: left;
+
 }
 
 h2 {
@@ -130,6 +130,10 @@ h2 {
 
 aside {
   width: 240px;
+}
+
+.categories {
+
 }
 
 .button {
