@@ -44,6 +44,7 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+  background-color: #f0efef;
   color: #000;
   font-size: 12px;
   line-height: 1.4;
@@ -85,6 +86,61 @@ li {
   display: inline-block;
   padding: 30px 0;
   margin-right: 40px;
+}
+
+main {
+  margin-left: 75px;
+}
+
+article {
+  width: 700px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #033048;
+  margin-top: 50px;
+}
+
+.blog-one-photo {
+  margin: 20px 0;
+  width: 700px;
+}
+
+.blog-one {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  color: #606161;
+}
+
+.first-letter-blog {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.read-more {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  color: #033048;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #f9e42e;
+  height: 75px;
+  width: 100%;
+}
+
+.button-ext {
+  background-color: #033048;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 footer {
