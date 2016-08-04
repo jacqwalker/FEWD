@@ -22,5 +22,35 @@ body {
 }
 
 header {
+  color: white;
+  background-color: #000;
+  height: 75px;
+  border-bottom: 5px solid #f9e42e;
+}
 
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 25px;
+  float: left;
+  padding-top: 10px;
+}
+
+nav {
+  float: right;
+  padding-bottom: 20px;
+}
+
+li {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 35px;
+  padding-top: 26px;
+}
+
+.font {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
