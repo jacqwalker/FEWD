@@ -11,7 +11,7 @@
   clear: both;
 }
 
-/*LAYOUT*/
+/*HEADER, BODY, FOOTER OF PAGES*/
 
 body {
   width: 100%;
@@ -73,6 +73,19 @@ header li a {
   font-family: oswald;
 }
 
+footer {
+  background-color: #000;
+  color: white;
+  font-size: 14px;
+}
+
+footer p {
+  padding: 10px;
+}
+
+/*END OF GENERIC STYLING*/
+
+/*INDEX HTML CSS*/
 .tag-line {
   background-color: #cccccc;
   padding: 10px;
@@ -168,12 +181,14 @@ aside {
   margin-top: 30px;
 }
 
-footer {
-  background-color: #000;
-  color: white;
-  font-size: 14px;
+/*END OF INDEX HTML CSS*/
+
+/*DEVELOPERS PAGE STYLING*/
+main {
+  background-color: #b3b3b3;
 }
 
-footer p {
-  padding: 10px;
+.container {
+  width: 95%;
+  margin: 0 auto;
 }
