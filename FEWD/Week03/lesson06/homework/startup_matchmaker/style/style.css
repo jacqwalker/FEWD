@@ -192,3 +192,48 @@ main {
   width: 95%;
   margin: 0 auto;
 }
+
+.outline {
+  background-color: white;
+  width: 23.5%;
+  display: inline-block;
+  margin: 20px 15px 0 0;
+}
+
+.developers-photo {
+  margin: 10px;
+}
+
+.developers-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.skills {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 15px;
+  background-color: #8c8c8c;
+  color: white;
+  padding: 1px 8px;
+  border-radius: 10px;
+}
+
+.contact-button {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  background-color: #ffff1a;
+  font-family: oswald;
+  padding: 10px 0;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.last-row {
+  margin-bottom: 20px;
+}
