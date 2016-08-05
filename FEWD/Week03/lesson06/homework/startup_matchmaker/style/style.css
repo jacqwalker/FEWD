@@ -220,6 +220,10 @@ main {
   border-radius: 10px;
 }
 
+.skills-two {
+  margin-left: 5px;
+}
+
 .contact-button {
   display: block;
   text-decoration: none;
