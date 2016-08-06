@@ -17,7 +17,7 @@ Developer @GA in NYC
 
 /* Clear fix hack */
 .clearfix:after {
-  cdisplay: block;
+  display: block;
   clear: both;
   visibility: hidden;
   line-height: 0;
@@ -47,7 +47,7 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   width: 100%;
 }
 
@@ -58,127 +58,6 @@ body {
 
 /* Center the container */
 
-header {
-background-color: #033048;
-height: 75px;
-width: 100%;
-}
-
-h1 {
-color: white;
-font-size: 40px;
-font-weight: bolder;
-margin-left: 75px;
-float: left;
-padding-top: 5px;
-}
-
-nav {
-  font-size: 20px;
-  color: #f9e42e;
-  float: right;
-  font-weight: 400;
-  margin-right: 100px;
-}
-
-li {
-  display: inline-block;
-  padding: 30px 0;
-  margin-right: 40px;
-}
-
-article {
-  width: 700px;
-  margin-left: 75px;
-}
-
-.article-layout {
-
-}
-
-h2 {
-  font-size: 36px;
-  color: #033048;
-  margin-top: 30px;
-  width: 600px;
-}
-
-.blog-one-photo {
-  margin: 20px 0;
-  width: 700px;
-}
-
-.blog-one {
-  font-size: 18px;
-  font-weight: lighter;
-  margin-bottom: 20px;
-  color: #606161;
-}
-
-.first-letter-blog {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.read-more {
-  text-align: right;
-  font-size: 18px;
-  font-weight: bold;
-  color: #033048;
-  margin-bottom: 20px;
-}
-
-aside {
-  width: 240px;
-}
-
-.categories {
-
-}
-
-.button {
-  background-color: #f9e42e;
-  height: 75px;
-  width: 100%;
-  padding: 12.5px 0;
-  margin-top: 60px;
-}
-
-.button-ext {
-  background-color: #033048;
-  width: 200px;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0 auto;
-  padding: 10px;
-  border-radius: 5px;
-  height: 50px;
-  text-align: center;
-}
-
-footer {
-  background-color: #121212;
-  height: 250px;
-  color: white;
-  text-align: center;
-  line-height: 1.5;
-}
-
-#footer-heading {
-  color: #f9e42e;
-  margin: 0 auto;
-  padding: 20px;
-  font-weight: bold;
-}
-
-.some-image {
-  padding: 20px;
-}
-
-.copyright {
-  padding-top: 40px;
-}
 
 /******************************************
 /* ADDITIONAL STYLES
