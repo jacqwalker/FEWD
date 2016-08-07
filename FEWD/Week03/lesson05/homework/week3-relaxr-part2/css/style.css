@@ -130,7 +130,6 @@ article p::first-letter {
 aside {
   float: right;
   width: 240px;
-  margin-right: 200px;
 }
 
 h3 {
@@ -171,7 +170,20 @@ aside li a {
 }
 
 .sign-up-now {
-  clear: both;
+  background-color: #f9e42e;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #033048;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 50px;
 }
 
 /******************************************
