@@ -16,16 +16,13 @@ Developer @GA in NYC
 }
 
 /* Clear fix hack */
-.clearfix:after {
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
 }
 
-.clear {
- clear: both;
+.clearfix:after{
+  clear: both;
 }
 
 .alignright {
@@ -88,7 +85,7 @@ nav li a {
 
 main {
   background-color: #f0efef;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -183,7 +180,6 @@ aside li a {
   font-weight: 600;
   padding: 5px 15px;
   border-radius: 5px;
-  margin-top: 50px;
 }
 
 /******************************************
