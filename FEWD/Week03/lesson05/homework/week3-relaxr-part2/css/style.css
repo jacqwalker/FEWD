@@ -56,8 +56,114 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
+header {
+  background-color: #033048;
+  height: 80px;
+}
 
+h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  padding: 10px 0 0 133px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-right: 100px;
+}
+
+nav li {
+  font-size: 18px;
+  display: inline-block;
+  padding-right: 30px;
+  padding-top: 28px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #f9e42e;
+}
+
+main {
+  background-color: #f0efef;
+  width: 90%;
+  margin: 0 auto;
+}
+
+main section {
+  width: 700px;
+  float: left;
+}
+
+.article-heading {
+  font-size: 40px;
+  color: #033048;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.article-snippet {
+  padding: 20px 0;
+  font-size: 20px;
+  color: #606161;
+}
+
+article p::first-letter {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.read-more {
+  text-align: right;
+  text-decoration: none;
+  color: #033048;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #033048;
+}
+
+aside {
+  width: 240px;
+  float: right;
+  margin-right: 200px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #033048;
+  font-weight: 800;
+  padding: 40px 0 10px;
+}
+
+aside li, .about-text {
+  font-size: 18px;
+  color: #033048;
+  font-weight: 400;
+}
+
+.learn-more {
+  font-size: 16px;
+  color: #033048;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ad-unit {
+  height: 400px;
+  width: 240px;
+  background-color: white;
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
