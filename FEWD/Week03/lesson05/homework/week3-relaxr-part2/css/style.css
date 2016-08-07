@@ -68,7 +68,7 @@ h1 {
 
 nav {
   float: right;
-  margin-right: 100px;
+  padding-right: 75px;
 }
 
 nav li {
@@ -121,7 +121,7 @@ article p::first-letter {
   font-weight: 600;
   display: block;
   padding-bottom: 20px;
-  border-bottom: 2px solid #033048;
+  border-bottom: 1px solid #033048;
 }
 
 aside {
@@ -170,6 +170,7 @@ aside li a {
   background-color: #f9e42e;
   padding: 20px;
   text-align: center;
+  margin-top: 75px;
 }
 
 .button {
@@ -178,9 +179,32 @@ aside li a {
   color: white;
   font-size: 20px;
   font-weight: 600;
-  padding: 5px 15px;
+  padding: 5px 30px;
   border-radius: 5px;
 }
+
+footer {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 30px;
+  color: #f9e42e;
+  font-weight: 800;
+  padding-top: 50px;
+}
+
+.some-image {
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  padding-bottom: 20px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
