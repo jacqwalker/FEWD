@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: yellow;
+  padding: 20px;
+  margin: 30px;
+}
+
+.section1 {
+  width: 80%;
+  margin: 0 auto; /* centering type 1 */
+}
+
+h1 {
+  text-align: center; /* centering type 2 */
+}
+
+.section2 {
+  text-align: center; /* centering type 2 */
+}
+
+/*
+There are two types of centering in this file. Type 1 is about centering a layout block. As we've learned, most html
+elements are blocks by default. And blocks are 100% wide by default. So the important thing to remember about type 1
+centering is NOTHING will happen unless you apply a width to the block you're trying to center. Because otherwise,
+you're asking something that's 100% wide to center itself, and if you think about it that doesn't really make sense
+because since it's 100% wide there's no room for it to move in order to be sitting in the center.
+
+Type 2 is about centering textual content within a block. <h1> is a heading element which means it's a block element,
+as if you can imagine a newspaper, most headings (at least in older newspapers) usually sit on their own line.
+
+There's also an interesting phenomenon that occurs with type 2 centering, and that is that it affects images. Due to
+the historical nature of the web, "text-align: center" affects images too (you can see that the second cat is centered).
+This is because images were often surrounded by text in those infamous academic papers from the early days of the web,
+and so it was decided that images should be subject to similar styling rules as text. Just another historical consequence
+we have to deal with. But in this case, quite a handy one for centering images easily.
+*/
