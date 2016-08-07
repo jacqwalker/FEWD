@@ -65,7 +65,7 @@ h1 {
   font-size: 40px;
   color: white;
   font-weight: 700;
-  padding: 10px 0 0 133px;
+  padding: 10px 0 0 70px;
   float: left;
 }
 
@@ -93,8 +93,8 @@ main {
 }
 
 main section {
-  width: 700px;
   float: left;
+  width: 700px;
 }
 
 .article-heading {
@@ -128,8 +128,8 @@ article p::first-letter {
 }
 
 aside {
-  width: 240px;
   float: right;
+  width: 240px;
   margin-right: 200px;
 }
 
@@ -144,6 +144,11 @@ aside li, .about-text {
   font-size: 18px;
   color: #033048;
   font-weight: 400;
+}
+
+aside li a {
+  text-decoration: none;
+  color: #033048;
 }
 
 .learn-more {
@@ -163,6 +168,10 @@ aside li, .about-text {
   margin-top: 30px;
   padding-top: 30px;
   text-align: center;
+}
+
+.sign-up-now {
+  clear: both;
 }
 
 /******************************************
