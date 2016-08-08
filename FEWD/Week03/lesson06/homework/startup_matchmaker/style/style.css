@@ -24,7 +24,6 @@ body {
 header {
   color: white;
   background-color: #000;
-  height: 75px;
   border-bottom: 5px solid #ffff1a;
 }
 
@@ -39,8 +38,6 @@ h1 {
 
 nav {
   float: right;
-  height: 75px;
-  padding: 20px 0;
 }
 
 
@@ -58,12 +55,13 @@ header li {
 
 header li a:hover {
   background-color: #b3b3b3;
-  padding: 22px 10px 18px;
 }
 
 header li a {
   text-decoration: none;
   color: white;
+  padding: 15px 10px;
+  display: block;
 }
 
 .font {
@@ -102,9 +100,8 @@ footer p {
 }
 
 .underline {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #ffff1a;
-  text-decoration-color: #ffff1a;
+  padding-bottom: 1px;
+  border-bottom: 3px solid yellow;
 }
 
 .image {
