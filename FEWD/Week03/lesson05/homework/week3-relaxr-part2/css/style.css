@@ -12,7 +12,7 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
- box-sizing: border-box; /* IE */
+ box-sizing: border-box;
 }
 
 /* Clear fix hack */
@@ -55,27 +55,25 @@ body {
 
 header {
   background-color: #033048;
-  height: 80px;
 }
 
 h1 {
   font-size: 40px;
   color: white;
   font-weight: 700;
-  padding: 10px 0 0 70px;
   float: left;
+  padding: 12px 0 12px 70px;
 }
 
 nav {
   float: right;
-  padding-right: 75px;
+  padding: 28px 75px 28px 0;
 }
 
 nav li {
   font-size: 18px;
   display: inline-block;
-  padding-right: 30px;
-  padding-top: 28px;
+  padding-right: 50px;
 }
 
 nav li a {
@@ -85,7 +83,7 @@ nav li a {
 
 main {
   background-color: #f0efef;
-  width: 80%;
+  width: 960px;
   margin: 0 auto;
 }
 
