@@ -50,8 +50,6 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Open sans, Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
      width: 100%;
 }
 
@@ -61,22 +59,17 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-}
-
 header {
   height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 h1 {
   color: white;
-  font-weight: bolder;
+  font-weight: 800;
   font-size: 50px;
-  padding: 25px;
-  margin-left: 20px;
+  padding: 35px 50px;
 }
 
 h2 {
@@ -84,48 +77,51 @@ h2 {
   font-size: 40px;
   font-weight: 400;
   padding: 75px;
-  margin-left: 250px;
+  text-align: center;
 }
 
 .button-one {
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 700;
   background-color: #f9e42e;
-  border: 5px solid #f9e42e;
-  width: 200px;
+  width: 225px;
   text-align: center;
-  padding: 5px;
+  padding: 7px 30px;
   margin: 0 auto;
   border-radius: 5px;
   color: #033048;
+  display: block;
+  text-decoration: none;
 }
 
 .benefits {
   background-color: #f0efef;
-  height: 350px;
 }
 
 h3 {
   font-weight: bold;
   font-size: 26px;
-  padding: 50px 0 20px 50px;
+  padding: 50px 0 0 50px;
   color: grey;
 }
 
 .benefits-para {
   font-size: 20px;
-  width: 35%;
+  width: 45%;
   color: grey;
-  margin-left: 50px;
-  margin-bottom: 25px;
+  padding: 20px 50px;
+}
+
+.benefits ul {
+  width: 35%;
+  padding: 0 0 40px 100px;
 }
 
 li {
   list-style: circle;
   font-size: 16px;
   color: grey;
-  margin-left: 100px;
-  }
+}
 
 .reference-image {
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
@@ -148,7 +144,6 @@ li {
 }
 
 .block {
-  height: 75px;
   background-color: #f9e42e;
   padding: 15px;
 }
