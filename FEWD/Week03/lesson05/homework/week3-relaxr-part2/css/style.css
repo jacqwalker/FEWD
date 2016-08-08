@@ -1,0 +1,211 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+ box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: #f0efef;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  background-color: #033048;
+  height: 80px;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  padding: 10px 0 0 70px;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding-right: 75px;
+}
+
+nav li {
+  font-size: 18px;
+  display: inline-block;
+  padding-right: 30px;
+  padding-top: 28px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #f9e42e;
+}
+
+main {
+  background-color: #f0efef;
+  width: 80%;
+  margin: 0 auto;
+}
+
+main section {
+  float: left;
+  width: 700px;
+}
+
+.article-heading {
+  font-size: 40px;
+  color: #033048;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.article-snippet {
+  padding: 20px 0;
+  font-size: 20px;
+  color: #606161;
+}
+
+article p::first-letter {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.read-more {
+  text-align: right;
+  text-decoration: none;
+  color: #033048;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #033048;
+}
+
+aside {
+  float: right;
+  width: 240px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #033048;
+  font-weight: 800;
+  padding: 40px 0 10px;
+}
+
+aside li, .about-text {
+  font-size: 18px;
+  color: #033048;
+  font-weight: 400;
+}
+
+aside li a {
+  text-decoration: none;
+  color: #033048;
+}
+
+.learn-more {
+  font-size: 16px;
+  color: #033048;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ad-unit {
+  height: 400px;
+  width: 240px;
+  background-color: white;
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.sign-up-now {
+  background-color: #f9e42e;
+  padding: 20px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #033048;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-size: 30px;
+  color: #f9e42e;
+  font-weight: 800;
+  padding-top: 50px;
+}
+
+.some-image {
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  padding-bottom: 20px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
