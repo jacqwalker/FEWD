@@ -6,3 +6,7 @@ button {
   padding: 5px;
   font-weight: bold;
 }
+
+.fahrenheit {
+  color: grey;
+}
