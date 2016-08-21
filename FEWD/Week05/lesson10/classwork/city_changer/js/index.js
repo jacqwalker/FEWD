@@ -1,5 +1,5 @@
-function switchCity (city) {
-  document.querySelector("body").className = city;
+function switchCity (image) {
+  document.querySelector("body").className = image;
 }
 
 function cityChanger (event) {
@@ -11,13 +11,13 @@ function cityChanger (event) {
     switchCity("nyc");
   } else if (city == "San Francisco" || city == "sf") {
     switchCity("sf");
-  } else if (city == "Los Angeles") {
+  } else if (city == "Los Angeles" || city == "Los Angeles".toLowerCase() || city == "la") {
     switchCity("la");
-  } else if (city == "Austin") {
+  } else if (city == "Austin" || city == "Austin".toLowerCase()) {
     switchCity("austin");
-  } else if (city = "Sydney") {
+  } else if (city == "Sydney" || city == "Sydney".toLowerCase() || city == "syd") {
     switchCity("sydney");
-  } else {
+  } else if (city == "London" || city == "London".toLowerCase() || city == "lon") {
     switchCity("london");
   }
 }
