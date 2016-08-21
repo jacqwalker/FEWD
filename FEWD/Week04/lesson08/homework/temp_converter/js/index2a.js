@@ -57,8 +57,6 @@ function convert () {
 
 document.querySelector("#submit").onclick = convert;
 
-
-
 //MY ATTEMPT AT HOMEWORK
 // function conversionToFahrenheit () {
 //   var c = document.querySelector(".a").value;
