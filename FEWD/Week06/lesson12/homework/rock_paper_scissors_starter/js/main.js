@@ -3,7 +3,7 @@ var computerScore = 0;
 
 function compChoice() {
   var computerChoice = Math.random();
-  console.log(computerChoice);
+  // console.log(computerChoice);
   if (computerChoice <= 0.3) {
     return computerChoice = "Rock";
     // console.log(computerChoice);
