@@ -69,3 +69,12 @@ body {
   outline: none;
   border-color: rgba(255,255,255,.75);
 }
+
+.error {
+  width: 20em;
+  margin: 10px auto;
+  border: solid 2px red;
+  color: red;
+  text-align: center;
+  padding: 10px;
+}
