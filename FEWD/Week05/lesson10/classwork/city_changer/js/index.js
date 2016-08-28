@@ -7,6 +7,8 @@ function cityChanger (event) {
 
   var city = $("#city-type").val();
 
+  // Use attr(attributeName, val) to do what is className in javascript 
+
   if (city == "New York City" || city == "New York City".toLowerCase() || city == "nyc") {
     switchCity("nyc");
   } else if (city == "San Francisco" || city == "sf") {
