@@ -94,6 +94,7 @@ h2 {
     display: inline-block;
     width: 50%;
     margin-top: 0;
+    vertical-align: top;
   }
 
   h2 {
