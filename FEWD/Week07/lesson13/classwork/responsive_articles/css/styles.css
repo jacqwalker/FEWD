@@ -19,6 +19,47 @@ body {
   background-color: #F6F0E4;
 }
 
+/*HEADER styling*/
+header {
+  background-color: #7BAFA4;
+}
+
+ul {
+  padding: 15px 20px 20px;
+  margin: 0;
+}
+
+li {
+  padding: 7.5px 0;
+  border-bottom: 2px solid #F6F0E4;
+}
+
+li:first-child {
+  border-top: 2px solid #F6F0E4;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0;
+}
+
+li:hover {
+  background-color: #488A7C;
+}
+
+#hamburger {
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+#hamburger div {
+  border-top: 3px solid white;
+  padding: 2px;
+  width: 9%;
+  border-radius: 2px;
+}
 /* Basic/Mobile Article Styling: */
 
 article {
