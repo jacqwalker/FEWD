@@ -27,6 +27,9 @@ header {
 ul {
   padding: 0px 20px 20px;
   margin: 0;
+  /*overflow: hidden;
+  height: 0;
+  transition: all 5s ease-in-out;*/
 }
 
 li {
@@ -59,19 +62,15 @@ li:hover {
   text-decoration: none;
   outline:none;
   padding: 0;
+  margin-left: 90%;
   }
+/*
+.visible {
+  overflow: visible;
+  padding-bottom: 20px;
+  height: 160px;
+  }*/
 
-/*#hamburger {
-  padding-top: 5px;
-  cursor: pointer;
-  }
-
-#hamburger div {
-  border-top: 3px solid white;
-  padding: 2px;
-  width: 9%;
-  border-radius: 2px;
-}*/
 /* Basic/Mobile Article Styling: */
 
 article {
@@ -123,14 +122,34 @@ img {
     float: right;
   }
 
-h2 {
-  margin-top: 0;
+  h2 {
+    margin-top: 0;
   }
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
   /* limit <main> to 610px and do necessary styling to match screenshot
   Re-stack image on top of text and use the font-size:0 "hack" to create a 2-column layout */
+  ul {
+    height: auto;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    padding: 10px;
+  }
+
+  li:first-child {
+    border: none;
+  }
+
+  a {
+
+  }
+
   main {
     width: 610px;
     font-size: 0;
@@ -163,7 +182,6 @@ h2 {
   p {
     font-size: 13px;
     }
-
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
