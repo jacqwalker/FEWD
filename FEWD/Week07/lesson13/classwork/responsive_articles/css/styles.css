@@ -1,0 +1,206 @@
+/* Box Model Hack */
+* {
+ box-sizing: border-box;
+}
+
+/* Clearfix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  background-color: #F6F0E4;
+}
+
+/*HEADER styling*/
+header {
+  background-color: #7BAFA4;
+}
+
+ul {
+  padding: 0px 20px 20px;
+  margin: 0;
+  /*overflow: hidden;
+  height: 0;
+  transition: all 5s ease-in-out;*/
+}
+
+li {
+  padding: 7.5px 0;
+  border-bottom: 2px solid #F6F0E4;
+}
+
+li:first-child {
+  border-top: 2px solid #F6F0E4;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0;
+}
+
+li:hover {
+  background-color: #488A7C;
+  cursor: pointer;
+}
+
+.hamburger {
+  background: none;
+  color: white;
+  border: none;
+  font-size:2.3em;
+  cursor: pointer;
+  text-decoration: none;
+  outline:none;
+  padding: 0;
+  margin-left: 90%;
+  }
+/*
+.visible {
+  overflow: visible;
+  padding-bottom: 20px;
+  height: 160px;
+  }*/
+
+/* Basic/Mobile Article Styling: */
+
+article {
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Responsive Article Styling: */
+
+@media (min-width: 480px) { /* mobile-landscape */
+  /* limit <main> to 440px and do necessary styling to match screenshot
+  Use classes and elements present in HTML as clues */
+  body {
+    font-size: 12.5px;
+  }
+
+  main {
+    width: 440px;
+    margin: 0 auto;
+  }
+
+  img {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .left-aligned, .right-aligned {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+  }
+
+  .right-aligned {
+    float: right;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 650px) { /* tablet-portrait */
+  /* limit <main> to 610px and do necessary styling to match screenshot
+  Re-stack image on top of text and use the font-size:0 "hack" to create a 2-column layout */
+  ul {
+    height: auto;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    padding: 10px;
+  }
+
+  li:first-child {
+    border: none;
+  }
+
+  a {
+
+  }
+
+  main {
+    width: 610px;
+    font-size: 0;
+    margin: 0 auto;
+  }
+
+  .right-aligned, .left-aligned {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  article {
+    display: inline-block;
+    width: 50%;
+    margin-top: 0;
+    vertical-align: top;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  p {
+    font-size: 13px;
+    }
+}
+
+@media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+  /* limit <main> to 900px and create a 3-column layout. Very minimal styling needed here,
+  as the CSS in the previous media-query does the heavy-lifting around creating a mult-column layout */
+  main {
+    width: 900px;
+  }
+
+  article {
+    display: inline-block;
+    width: 33%;
+  }
+}
+
+@media (min-width: 1220px) { /* laptops/desktops */
+  /* limit <main> to 1180px to create a wider 3-column layout */
+
+  main {
+    width: 1180px;
+  }
+}
