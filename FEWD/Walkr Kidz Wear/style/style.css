@@ -122,7 +122,8 @@ li:hover {
 footer {
     background-color: #000040;
     font-weight: 600;
-    padding: 5px 5px 5px 50px;
+    padding: 5px;
+    text-align: center;
     color: white;
 }
 
@@ -173,10 +174,6 @@ img {
     margin: 10px 8px 10px 10px;
     border-radius: 2px;
     font-size: 0;
-}
-
-.product-img {
-    width: 80%;
 }
 
 .product-descr {
@@ -344,6 +341,29 @@ img {
        width: 610px;
        margin: 0 auto;
    }
+
+   .section1 {
+         background: url('../images/tablet/slider.jpg') no-repeat center top;
+         height: 200px;
+         margin: 10px;
+     }
+
+    main section section {
+        font-size: 0;
+    }
+
+     .delivery {
+         display: inline-block;
+         width: 290px;
+         background: url('../images/tablet/fastdelivery.jpg') no-repeat center top;
+         height: 125px;
+         margin: 0 10px 10px;
+     }
+
+     .returns {
+         background: url('../images/tablet/returns.jpg') no-repeat center top;
+         margin: 0 0 10px 0;
+     }
  }
 
  @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
