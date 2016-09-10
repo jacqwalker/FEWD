@@ -180,23 +180,19 @@ img {
 }
 
 .product-descr {
-    display: inline-block;
-    /*width: 86px;*/
     vertical-align: top;
     text-align: center;
-    border-top:2px solid #cccccc;
-    border-bottom:2px solid #cccccc;
-    border-right: 2px solid #cccccc;
+    border:2px solid #cccccc;
 }
 
 .product h4 {
     font-size: 16px;
-    margin: 5px 0 10px;
+    margin: 5px 0;
 }
 
 .product p {
-    margin-bottom: 10px;
     font-size: 12px;
+    margin: 0;
 }
 
 .shop-now-btn {
