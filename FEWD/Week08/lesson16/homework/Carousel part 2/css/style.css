@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 600px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+p {
+  padding-bottom: 15px;
+}
+
+button {
+  background-color: rgba(231, 68, 16, 0.96);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin: 0 10px 50px 0;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
