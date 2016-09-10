@@ -24,13 +24,16 @@ header {
   background-color: #7BAFA4;
 }
 
-ul {
-  padding: 0px 20px 20px;
-  margin: 0;
-  /*overflow: hidden;
-  height: 0;
-  transition: all 5s ease-in-out;*/
+nav {
+  max-height: 0;
+  transition: max-height 0.5s;  
 }
+
+ul {
+  padding: 0px 20px;
+  margin: 0;
+  /*display: none; can also use max-height to hide something for when we use animation*/
+  }
 
 li {
   padding: 7.5px 0;
@@ -64,12 +67,10 @@ li:hover {
   padding: 0;
   margin-left: 90%;
   }
-/*
+
 .visible {
-  overflow: visible;
-  padding-bottom: 20px;
-  height: 160px;
-  }*/
+  max-height: 200px;
+  }
 
 /* Basic/Mobile Article Styling: */
 
@@ -146,10 +147,6 @@ img {
     border: none;
   }
 
-  a {
-
-  }
-
   main {
     width: 610px;
     font-size: 0;
@@ -167,21 +164,17 @@ img {
     width: 50%;
     margin-top: 0;
     vertical-align: top;
+    font-size: 13px;
   }
 
   h2 {
     margin-top: 20px;
-    font-size: 24px;
   }
 
   img {
     display: block;
     width: 100%;
   }
-
-  p {
-    font-size: 13px;
-    }
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
