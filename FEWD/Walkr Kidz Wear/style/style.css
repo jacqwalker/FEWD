@@ -175,14 +175,14 @@ img {
     margin: 10px;
     border-radius: 2px;
     float: left;
-    width: 137px;
+    width: 136px;
 }
 
 .product2 {
     margin: 10px 10px 10px 0;
     border-radius: 2px;
     float: right;
-    width: 137px;
+    width: 136px;
 }
 
 .product-descr {
@@ -379,22 +379,33 @@ input {
          margin: 0 0 10px 0;
      }
 
-     .product, .newsletter, .social-media {
-         width: 290px;
+     .product1, .product2, .newsletter, .social-media {
+         width: 189px;
+         float: none;
+         display: inline-block;
      }
 
+    .newsletter {
+        margin: 0 0 10px 10px;
+        vertical-align: top;
+        padding-bottom: 27px;
+    }
 
-     .social-media h4 {
-         font-size: 24px;
-         margin: 40px 0 10px;
-     }
+    .submit-button {
+        margin: 30px auto;
+    }
 
-     .some-img {
-         height: 45px;
-         width: 45px;
-         margin-left: 10px;
-     }
- }
+    input {
+        width: 150px;
+        font-size: 14px;
+        margin: 10px auto;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+}
 
  @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
    main {
