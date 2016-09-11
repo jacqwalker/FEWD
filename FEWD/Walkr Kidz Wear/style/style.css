@@ -268,9 +268,9 @@ input {
     }
 
   .section1 {
-        background: url('../images/mobile/slider.jpg') no-repeat center top;
-        height: 200px;
-        margin: 10px;
+    background: url('../images/mobile/slider.jpg') no-repeat center top;
+    height: 200px;
+    margin: 10px;
     }
 
     .delivery {
@@ -283,7 +283,15 @@ input {
         background: url('../images/mobile/returns.jpg') no-repeat center top;
     }
 
-    .product {
+    .product1 {
+        margin: 0 0 10px 10px;
+        float: left;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        width: 204px;
+    }
+
+    .product2 {
         margin: 0 0 10px 10px;
         float: left;
         border: 2px solid #ccc;
@@ -292,16 +300,14 @@ input {
     }
 
     .product-descr {
-        display: block;
-        width: 100%;
         border: none;
     }
 
-    .product h4 {
+    .product-descr h4 {
         margin: 5px 0;
     }
 
-    .product p {
+    .product-descr p {
         margin: 0;
     }
 
@@ -315,9 +321,7 @@ input {
     }
 
     .newsletter {
-        float: right;
-        margin: 0px 10px 10px 0;
-        width: 206px;
+        margin: 0 13.5px;
     }
 
     .newsletter h3 {
@@ -329,19 +333,20 @@ input {
     }
 
     .social-media {
-        float: right;
-        width: 225px;
+        margin-top: 5px;
     }
 
     .social-media h4 {
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 1.5em;
+        vertical-align: top;
+        display: inline-block;
     }
 
     .some-img {
-        height: 35px;
-        width: 35px;
-        margin-left: 10px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        padding-top: 5px;
     }
   }
 
