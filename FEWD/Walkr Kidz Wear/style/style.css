@@ -22,8 +22,9 @@ body {
 /* HEADER STYLING */
 
 header {
-    border-top: 5px solid #55688A;
-    border-bottom: 5px solid #55688A;
+    border-top: 5px solid #007399;
+    border-bottom: 5px solid #007399;
+;
 }
 
 .left {
@@ -42,10 +43,10 @@ header {
 .box {
     height: 30px;
     width: 30px;
-    color: #55688A;
+    color: #007399;
     display: inline-block;
     margin-top: 10px;
-    border: solid 2px #55688A;
+    border: solid 2px #007399;
     border-radius: 5px;
 }
 
@@ -56,14 +57,14 @@ header {
 }
 
 .searchBox:hover {
-    background-color: #55688A;
+    background-color: #007399;
     color: white;
 }
 
 .hamburger-line {
     height: 3px;
     margin: 4px;
-    background-color: #55688A;
+    background-color: #007399;
     border-radius: 3px;
 }
 
@@ -72,7 +73,7 @@ header {
 }
 
 .hamburger:hover {
-    background-color: #55688A;
+    background-color: #007399;
 }
 
 .hamburger:hover .hamburger-line {
@@ -94,8 +95,8 @@ ul {
 
 li {
     list-style-type: none;
-    background-color: #55688A;
-    padding: 5px;
+    background-color: #007399;
+    padding: 5px 5px 5px 20px;
     border-bottom: 2px solid white;
 }
 
@@ -110,7 +111,7 @@ header a {
 }
 
 li:hover {
-    background-color: #000040;
+    background-color: #55688A;
 }
 
 .visible {
@@ -143,7 +144,7 @@ img {
     color: white;
     text-align: center;
     padding: 7.5px 0;
-    background-color: #55688A;
+    background-color: #007399;
     margin-top: 5px;
     width: 100%;
 }
@@ -170,16 +171,24 @@ img {
     margin-bottom: 0;
 }
 
-.product {
-    margin: 10px 8px 10px 10px;
+.product1 {
+    margin: 10px;
     border-radius: 2px;
-    font-size: 0;
+    float: left;
+    width: 149px;
+}
+
+.product2 {
+    margin: 10px 10px 10px 0;
+    border-radius: 2px;
+    float: right;
+    width: 149px;
 }
 
 .product-descr {
-    vertical-align: top;
+    /*vertical-align: top;*/
     text-align: center;
-    border:2px solid #cccccc;
+    border: 2px solid #ccc;
 }
 
 .product h4 {
@@ -196,11 +205,11 @@ img {
     text-decoration: none;
     display: block;
     background-color: #000040;
-    width: 65px;
+    width: 75px;
     margin: 12.5px auto;
     color: white;
     text-align: center;
-    padding: 2px;
+    padding: 7.5px;
     border-radius: 5px;
     font-size: 12px;
 }
@@ -210,11 +219,12 @@ img {
 }
 
 .newsletter {
-    border: 2px solid #000040;
+    border: 2px solid #ccc;
     margin: 10px 10px 0;
     padding: 10px 25px;
     text-align: center;
     border-radius: 3px;
+    clear: both;
 }
 
 .newsletter h3 {
@@ -224,6 +234,10 @@ img {
 
 .newsletter p {
     font-size: 14px;
+}
+
+input {
+    font-size: 16px;
 }
 
 .submit-button {
@@ -241,7 +255,6 @@ img {
 
 .some-img {
     display: inline-block;
-    background-color: #000040;
     height: 25px;
     width: 25px;
 }
@@ -268,10 +281,6 @@ img {
 
     .returns {
         background: url('../images/mobile/returns.jpg') no-repeat center top;
-    }
-
-    .section-4 {
-        /*font-size: 0;*/
     }
 
     .product {
@@ -363,6 +372,22 @@ img {
      .returns {
          background: url('../images/tablet/returns.jpg') no-repeat center top;
          margin: 0 0 10px 0;
+     }
+
+     .product, .newsletter, .social-media {
+         width: 290px;
+     }
+
+
+     .social-media h4 {
+         font-size: 24px;
+         margin: 40px 0 10px;
+     }
+
+     .some-img {
+         height: 45px;
+         width: 45px;
+         margin-left: 10px;
      }
  }
 
