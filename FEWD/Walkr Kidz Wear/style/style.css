@@ -24,7 +24,6 @@ body {
 header {
     border-top: 5px solid #007399;
     border-bottom: 5px solid #007399;
-;
 }
 
 .left {
@@ -351,15 +350,51 @@ input {
   }
 
  @media (min-width: 650px) { /* tablet-portrait */
+    /*HEADER STYLING*/
+
+    header {
+        border: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .logo {
+        height: 75px;
+        width: 200px;
+        display: inline-block;
+    }
+
+    nav {
+        display: inline-block;
+        margin-top: 37px;
+    }
+
+    li {
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+    }
+
+    ul {
+        overflow: visible;
+        max-height: none;
+    }
+
      main {
        width: 610px;
        margin: 0 auto;
    }
 
+   .tagline {
+       margin-top: 0;
+   }
+
    .section1 {
          background: url('../images/tablet/slider.jpg') no-repeat center top;
          height: 200px;
-         margin: 10px;
+         margin: 30px 10px 10px;
      }
 
     main section section {
@@ -369,26 +404,29 @@ input {
      .delivery {
          display: inline-block;
          width: 290px;
-         background: url('../images/tablet/fastdelivery.jpg') no-repeat center top;
+         background: url('../images/tablet/fastdelivery2.jpg') no-repeat center top;
          height: 125px;
-         margin: 0 10px 10px;
+         margin: 10px;
+         border-right:2px solid #ccc;
      }
 
      .returns {
-         background: url('../images/tablet/returns.jpg') no-repeat center top;
-         margin: 0 0 10px 0;
+         background: url('../images/tablet/returns2.jpg') no-repeat center top;
+         margin: 10px 0;
+         border: none;
      }
 
      .product1, .product2, .newsletter, .social-media {
          width: 189px;
          float: none;
          display: inline-block;
+         margin-top: 15px;
      }
 
     .newsletter {
-        margin: 0 0 10px 10px;
+        margin: 15px 0 10px 10px;
         vertical-align: top;
-        padding-bottom: 27px;
+        padding-bottom: 0px;
     }
 
     .submit-button {
@@ -397,14 +435,14 @@ input {
 
     input {
         width: 150px;
-        font-size: 14px;
+        font-size: 13px;
         margin: 10px auto;
+        height: 50px;
     }
 
     .social-media {
         display: none;
     }
-
 }
 
  @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
