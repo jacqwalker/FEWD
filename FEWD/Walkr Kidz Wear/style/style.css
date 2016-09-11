@@ -175,28 +175,27 @@ img {
     margin: 10px;
     border-radius: 2px;
     float: left;
-    width: 149px;
+    width: 137px;
 }
 
 .product2 {
     margin: 10px 10px 10px 0;
     border-radius: 2px;
     float: right;
-    width: 149px;
+    width: 137px;
 }
 
 .product-descr {
-    /*vertical-align: top;*/
     text-align: center;
     border: 2px solid #ccc;
 }
 
-.product h4 {
-    font-size: 16px;
-    margin: 5px 0;
+.product-descr h4 {
+    font-size: 14px;
+    margin: 5px 0 0;
 }
 
-.product p {
+.product-descr p {
     font-size: 12px;
     margin: 0;
 }
@@ -256,7 +255,8 @@ input {
 .some-img {
     display: inline-block;
     height: 25px;
-    width: 25px;
+    width: 30px;
+    padding-left: 5px;
 }
 
 /* Responsive Article Styling: */
