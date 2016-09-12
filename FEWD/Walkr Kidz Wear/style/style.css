@@ -265,6 +265,7 @@ input {
         background: url('../images/mobile/fastdelivery.jpg') no-repeat center top;
         height: 150px;
         margin: 0 10px 10px;
+        border: none;
     }
 
     .returns {
@@ -274,16 +275,12 @@ input {
     .product1 {
         margin: 0 0 10px 10px;
         float: left;
-        border: 2px solid #ccc;
-        border-radius: 5px;
         width: 204px;
     }
 
     .product2 {
         margin: 0 0 10px 10px;
         float: left;
-        border: 2px solid #ccc;
-        border-radius: 5px;
         width: 204px;
     }
 
@@ -297,10 +294,6 @@ input {
 
     .product-descr p {
         margin: 0;
-    }
-
-    .product-descr a {
-        margin: 5px auto;
     }
 
     .shop-now-btn {
@@ -341,10 +334,6 @@ input {
  @media (min-width: 650px) { /* tablet-portrait */
     /*HEADER STYLING*/
 
-    header {
-        border: none;
-    }
-
     .right {
         display: none;
     }
@@ -358,7 +347,6 @@ input {
     nav {
         display: inline-block;
         margin-top: 37px;
-        margin-left: 20px;
     }
 
     li {
@@ -416,22 +404,31 @@ input {
     .newsletter {
         margin: 15px 0 10px 10px;
         vertical-align: top;
-        padding-bottom: 0px;
+        padding: 0px;
+    }
+
+    .newsletter h3 {
+        margin-top: 2px;
+    }
+
+    .newsletter p {
+        margin-bottom: 0;
     }
 
     .submit-button {
-        margin: 30px auto;
+        margin: 12px auto;
     }
 
     input {
-        width: 150px;
+        width: 160px;
         font-size: 13px;
         margin: 10px auto;
-        height: 50px;
+        padding: 5px;
     }
 
     .social-media {
-        display: none;
+        width: 100%;
+        margin: 10px auto;
     }
 }
 
