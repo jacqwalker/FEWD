@@ -21,11 +21,6 @@ body {
 
 /* HEADER STYLING */
 
-header {
-    border-top: 5px solid #007399;
-    border-bottom: 5px solid #007399;
-}
-
 .left {
     float: left;
 }
@@ -37,15 +32,14 @@ header {
 .logo {
     display: block;
     width: 145px;
+    margin: 7px;
 }
 
 .box {
-    height: 30px;
     width: 30px;
-    color: #007399;
+    color: #595959;
     display: inline-block;
     margin-top: 10px;
-    border: solid 2px #007399;
     border-radius: 5px;
 }
 
@@ -53,17 +47,18 @@ header {
     font-size: 16px;
     text-align: center;
     margin-right: 3px;
+    padding: 3px;
 }
 
 .searchBox:hover {
-    background-color: #007399;
+    background-color: #595959;
     color: white;
 }
 
 .hamburger-line {
     height: 3px;
-    margin: 4px;
-    background-color: #007399;
+    margin: 5px;
+    background-color: #595959;
     border-radius: 3px;
 }
 
@@ -72,7 +67,7 @@ header {
 }
 
 .hamburger:hover {
-    background-color: #007399;
+    background-color: #595959;
 }
 
 .hamburger:hover .hamburger-line {
@@ -94,23 +89,22 @@ ul {
 
 li {
     list-style-type: none;
-    background-color: #007399;
     padding: 5px 5px 5px 20px;
-    border-bottom: 2px solid white;
-}
-
-li:first-child {
-    border-top: 2px solid white;
+    border-bottom: 2px solid #55688A;
 }
 
 header a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: #55688A;
+    display: block;
 }
 
 li:hover {
     background-color: #55688A;
+}
+
+header a:hover {
+    color: white;
 }
 
 .visible {
@@ -121,7 +115,6 @@ li:hover {
 
 footer {
     background-color: #000040;
-    font-weight: 600;
     padding: 5px;
     text-align: center;
     color: white;
@@ -139,18 +132,17 @@ img {
 }
 
 .tagline {
-    font-size: 1em;
+    font-size: 12px;
     color: white;
     text-align: center;
     padding: 7.5px 0;
-    background-color: #007399;
+    background-color: #55688A;
     margin-top: 5px;
     width: 100%;
 }
 
 .tagline-para {
     margin: 0;
-    font-weight: 600;
 }
 
 .section1 {
@@ -160,38 +152,35 @@ img {
 }
 
 .delivery {
-    background: url('../images/mobport/delivery.jpg') no-repeat center top;
+    background: url('../images/mobport/delivery1.jpg') no-repeat center top;
     height: 130px;
     margin: 0 10px 10px;
+    border-bottom: 2px solid #595959;
 }
 
 .returns {
-    background: url('../images/mobport/returns_bg.jpg') no-repeat center top;
+    background: url('../images/mobport/returns1.jpg') no-repeat center top;
     margin-bottom: 0;
 }
 
 .product1 {
-    margin: 10px;
+    margin: 10px 10px 15px;
     border-radius: 2px;
     float: left;
     width: 136px;
 }
 
 .product2 {
-    margin: 10px 10px 10px 0;
+    margin: 10px 10px 15px 0;
     border-radius: 2px;
     float: right;
     width: 136px;
 }
 
-.product-descr {
-    text-align: center;
-    border: 2px solid #ccc;
-}
-
 .product-descr h4 {
     font-size: 14px;
     margin: 5px 0 0;
+    font-weight: bold;
 }
 
 .product-descr p {
@@ -203,22 +192,20 @@ img {
     text-decoration: none;
     display: block;
     background-color: #000040;
-    width: 75px;
-    margin: 12.5px auto;
+    width: 90px;
     color: white;
     text-align: center;
-    padding: 7.5px;
-    border-radius: 5px;
+    padding: 5px 7.5px;
     font-size: 12px;
 }
 
 .shop-now-btn:hover {
-    background-color: #0047b3;
+    background-color: #595959;
 }
 
 .newsletter {
     border: 2px solid #ccc;
-    margin: 10px 10px 0;
+    margin: 15px 10px 0;
     padding: 10px 25px;
     text-align: center;
     border-radius: 3px;
@@ -240,6 +227,8 @@ input {
 
 .submit-button {
     border: none;
+    margin: 10px auto;
+    padding: 7.5px;
 }
 
 .social-media {
@@ -369,6 +358,7 @@ input {
     nav {
         display: inline-block;
         margin-top: 37px;
+        margin-left: 20px;
     }
 
     li {
@@ -393,7 +383,7 @@ input {
 
    .section1 {
          background: url('../images/tablet/slider.jpg') no-repeat center top;
-         height: 200px;
+         height: 250px;
          margin: 30px 10px 10px;
      }
 
