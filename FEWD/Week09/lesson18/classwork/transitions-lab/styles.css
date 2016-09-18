@@ -1,0 +1,71 @@
+/* Box Model Hack */
+* {
+ box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  margin: 30px auto;
+  background-color: lightblue;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+}
+
+#txt {
+  color: black;
+  transition: color 1s ease;
+}
+
+#txt:hover {
+  color: red;
+}
+
+#bg {
+  background-color: yellow;
+  transition: background-color 2s ease;
+}
+
+#bg:hover {
+  background-color: green;
+}
+
+#invisible {
+  opacity: 1;
+  transition: opacity 3s linear;
+}
+
+#invisible:hover {
+  opacity: 0;
+}
+
+/*
+#invisible {
+  transition: color, background-color 2s ease;
+}
+
+#invisible:hover {
+  color: white;
+  background-color: white;
+}*/
+
+#blinds {
+  transition: all 1s ease-in-out;
+}
+
+#blinds:hover {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#scale {
+  transition: height 3s ease, width 3s ease;
+  /*or transition: all 3s ease;*/
+}
+
+#scale:hover {
+  height: 400px;
+  width: 400px;
+}
