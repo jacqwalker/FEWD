@@ -50,6 +50,10 @@ body {
     padding: 3px;
 }
 
+.searchBox2 {
+    display: none;
+}
+
 .searchBox:hover {
     background-color: #595959;
     color: white;
@@ -207,7 +211,7 @@ img {
 }
 
 .shop-now-btn:hover {
-    background-color: #595959;
+    background-color: #4d4dff;
 }
 
 .newsletter {
@@ -224,12 +228,8 @@ img {
     margin: 10px 0;
 }
 
-.newsletter p {
+.newsletter p, input {
     font-size: 14px;
-}
-
-input {
-    font-size: 16px;
 }
 
 .submit-button {
@@ -267,6 +267,32 @@ input {
   color: #55688A;
   text-decoration: underline;
 }
+
+/*END OF SHOP PAGE STYLING*/
+
+/*PRODUCTS PAGE STYLING*/
+.t-shirts {
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.product-shop {
+    width: 125px;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #000040;
+    padding: 7.5px 20px;
+}
+
+.product-shop:hover {
+    background-color: #3FBF94;
+}
+
+/*END OF PRODUCTS PAGE STYLING*/
 
 /* Responsive Article Styling: */
 
@@ -326,7 +352,7 @@ input {
         font-size: 2em;
     }
 
-    .newsletter p {
+    .newsletter p, input {
         font-size: 1.5em;
     }
 
@@ -350,7 +376,7 @@ input {
     /*SHOP PAGE STYLING*/
     .age {
     width: 350px;
-  }
+    }
   }
 
  @media (min-width: 650px) { /* tablet-portrait */
@@ -420,6 +446,11 @@ input {
          border: none;
      }
 
+     .delivery:hover {
+         transform: scale(1.1);
+         border-right: none;
+     }
+
     .products {
         text-align: center;
     }
@@ -479,8 +510,15 @@ input {
 
  @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
 
+   .logo {
+     height: 100px;
+     width: 250px;
+     display: inline-block;
+     margin-left: 75px;
+     }
+
    nav {
-    margin-left: 300px;
+    margin: 55px 0 0 100px;
     }
 
    main {
@@ -524,6 +562,19 @@ input {
 }
 
  @media (min-width: 1220px) { /* laptops/desktops */
+
+     .searchBox2 {
+         display: inline-block;
+         margin-left: 200px;
+         background-image: url("../images/desktop/searchIcon.JPG");
+         background-position: 10px 10px;
+         background-repeat: no-repeat;
+         padding: 12px 20px 12px 40px;
+         width: 250px;
+         border: 2px solid #ccc;
+         border-radius: 2px;
+     }
+
      main {
        width: 1180px;
      }
@@ -533,26 +584,39 @@ input {
     }
 
      .section1 {
-           background: url('../images/desktop/slider.jpg') no-repeat center top;
-           height: 400px;
-           }
+        background: url('../images/desktop/slider.jpg') no-repeat center top;
+        height: 400px;
+     }
 
-       .delivery {
-           width: 575px;
-           background: url('../images/desktop/delivery.jpg') no-repeat center top;
-           height: 200px;
-          }
+     .delivery {
+       width: 575px;
+       background: url('../images/desktop/delivery.jpg') no-repeat center top;
+       height: 200px;
+       transition: all 0.3s;
+      }
 
-       .returns {
-           background: url('../images/desktop/returns.jpg') no-repeat center top;
-           }
+     .returns {
+       background: url('../images/desktop/returns.jpg') no-repeat center top;
+       }
 
-       .product1, .product2 {
-           width: 300px;
-           }
+     .products {
+         border-top: 2px solid #ccc;
+     }
 
-       .newsletter {
-          width: 300px;
-          }
+     .product1, .product2 {
+       width: 350px;
+       margin-left: 0;
+       margin-right: 45px;
+       }
+
+     .newsletter {
+      width: 350px;
+      }
+
+     /*PRODUCT PAGE STYLING*/
+     .t-shirts {
+        width: 300px;
+     }
+     /*END OF PRODUCT PAGE STYLING*/
 
    }
