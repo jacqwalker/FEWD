@@ -1,5 +1,5 @@
 function showNavBar () {
-  $("ul").toggleClass("visible");
+  $(".navBar").toggleClass("visible");
 };
 
 function changeSlider () {

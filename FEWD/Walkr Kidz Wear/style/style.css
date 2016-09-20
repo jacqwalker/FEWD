@@ -29,6 +29,10 @@ body {
     float: right;
 }
 
+.shopping {
+    display: none;
+}
+
 .logo {
     display: block;
     width: 145px;
@@ -103,11 +107,11 @@ header a {
     display: block;
 }
 
-li:hover {
+.nav-bar:hover {
     background-color: #55688A;
 }
 
-header a:hover {
+.nav-bar a:hover {
     color: white;
 }
 
@@ -393,6 +397,43 @@ img {
 
  @media (min-width: 650px) { /* tablet-portrait */
     /*HEADER STYLING*/
+    .shopping {
+        width: 100%;
+        position: relative;
+        left: 60%;
+        display: block;
+    }
+
+    .wishlist {
+        background-image: url("../images/desktop/wishlist.JPG");
+        background-repeat: no-repeat;
+        position: 10px;
+    }
+
+    .signUp {
+        background-image: url("../images/desktop/SignIn.JPG");
+        background-repeat: no-repeat;
+        position: 7px;
+    }
+
+    .register {
+        background-image: url("../images/desktop/register.JPG");
+        background-repeat: no-repeat;
+        position: 7px;
+    }
+
+    .shopping li {
+        border-bottom: none;
+        padding: 5px;
+        width: 75px;
+        cursor: pointer;
+        font-size: 11px;
+        text-align: right;
+    }
+
+    .shopping a {
+        text-decoration: none;
+    }
 
     .right {
         display: none;
@@ -402,11 +443,12 @@ img {
         height: 75px;
         width: 200px;
         display: inline-block;
+        margin: 0 7px;
     }
 
     nav {
         display: inline-block;
-        margin-top: 37px;
+        margin-top: 30px;
     }
 
     li {
@@ -535,6 +577,11 @@ img {
 
  @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
 
+ .shopping {
+     left: 70%;
+   }
+
+
    .logo {
      height: 100px;
      width: 250px;
@@ -543,7 +590,7 @@ img {
      }
 
    nav {
-    margin: 55px 0 0 100px;
+    margin: 30px 0 0 100px;
     }
 
    main {
@@ -597,6 +644,10 @@ img {
 
  @media (min-width: 1220px) { /* laptops/desktops */
 
+     .shopping {
+          left: 80%;
+        }
+
      .searchBox2 {
          display: inline-block;
          margin-left: 200px;
@@ -607,7 +658,11 @@ img {
          width: 250px;
          border: 2px solid #ccc;
          border-radius: 2px;
-     }
+        }
+
+    nav {
+        margin-top: 45px;
+    }
 
      main {
        width: 1180px;
