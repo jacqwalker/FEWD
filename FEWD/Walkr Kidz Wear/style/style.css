@@ -481,7 +481,7 @@ img {
     .newsletter {
         margin: 15px 0 10px 10px;
         vertical-align: top;
-        padding: 0px;
+        padding: 0px 10px;
     }
 
     .newsletter h3 {
@@ -493,6 +493,7 @@ img {
     .newsletter p {
         margin-bottom: 0;
         margin-top: 0;
+        padding: 0;
         font-size: 12px;
     }
 
@@ -570,18 +571,26 @@ img {
 
      .newsletter {
         width: 364px;
+        padding: 0 35px;
     }
 
     .newsletter h3 {
-        margin: 7.5px 0;
+        margin: 10px 0;
+        font-size: 18px;
     }
 
     .newsletter p {
-        margin-bottom: 10px;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    input {
+        width: 250px;
     }
 
     .submit-button {
-        margin-bottom: 28px;
+        margin-top: 15px;
+        margin-bottom: 23px;
     }
 
 }
@@ -662,6 +671,10 @@ img {
 
      .newsletter {
           width: 350px;
+      }
+
+      .newsletter p {
+          padding-bottom: 17px;
       }
 
     /*PRODUCT PAGE STYLING*/
