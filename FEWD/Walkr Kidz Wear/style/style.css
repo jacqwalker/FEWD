@@ -305,6 +305,52 @@ img {
 
 /*END OF PRODUCTS PAGE STYLING*/
 
+/*INDIVIDUAL PRODUCTS STYLING*/
+ .product-name h2 {
+     position: relative;
+     text-align: center;
+ }
+
+ .product-name span {
+     background: #fff;
+     padding: 0 10px;
+     position: relative;
+ }
+
+ .product-name h2:before {
+  background: #55688A;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.products-pic {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.arrow1 {
+    position: absolute;
+    width: 25px;
+    top: 45%;
+    cursor: pointer;
+}
+
+.arrow2 {
+    position: absolute;
+    width: 25px;
+    top: 45%;
+    right: 0%;
+    cursor: pointer;
+}
+
+/*END OF INDIVIDUAL PRODUCTS STYLING*/
+
 /* Responsive Article Styling: */
 
 @media (min-width: 480px) { /* mobile-landscape */
