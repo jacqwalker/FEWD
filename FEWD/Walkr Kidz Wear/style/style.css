@@ -154,24 +154,26 @@ img {
     height: 200px;
     margin: 10px;
 }
-/*
-.addSlider {
-    background: url('../images/mobport/slider.jpg') no-repeat center top;
-    height: 200px;
-    margin: 10px;
-}*/
 
+.click1, .click2 {
+    display: none;
+}
 
 .delivery {
     background: url('../images/mobport/delivery1.jpg') no-repeat center top;
     height: 130px;
     margin: 0 10px 10px;
     border-bottom: 2px solid #595959;
+    transition: all 0.3s;
 }
 
 .returns {
     background: url('../images/mobport/returns1.jpg') no-repeat center top;
     margin-bottom: 0;
+}
+
+.delivery:hover {
+    transform: scale(1.1);
 }
 
 .product1 {
@@ -236,6 +238,11 @@ img {
     border: none;
     margin: 10px auto;
     padding: 7.5px;
+}
+
+.contact-us {
+    text-align: center;
+    border-top: 2px solid #ccc;
 }
 
 .social-media {
@@ -308,15 +315,15 @@ img {
     margin: 10px;
     }
 
-    .delivery {
-        background: url('../images/mobile/fastdelivery.jpg') no-repeat center top;
-        height: 150px;
-        margin: 0 10px 10px;
-        border: none;
+  .delivery {
+    background: url('../images/mobile/fastdelivery.jpg') no-repeat center top;
+    height: 150px;
+    margin: 0 10px 10px;
+    border: none;
     }
 
-    .returns {
-        background: url('../images/mobile/returns.jpg') no-repeat center top;
+  .returns {
+    background: url('../images/mobile/returns.jpg') no-repeat center top;
     }
 
     .product1 {
@@ -349,11 +356,16 @@ img {
     }
 
     .newsletter h3 {
-        font-size: 2em;
+        font-size: 16px;
     }
 
-    .newsletter p, input {
-        font-size: 1.5em;
+    .newsletter p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    input {
+        width: 200px;
     }
 
     .social-media {
@@ -474,14 +486,18 @@ img {
 
     .newsletter h3 {
         margin-top: 2px;
+        margin-bottom: 5px;
+        font-size: 16px;
     }
 
     .newsletter p {
         margin-bottom: 0;
+        margin-top: 0;
+        font-size: 12px;
     }
 
     .submit-button {
-        margin: 15px auto;
+        margin: 0px auto 7.5px;
     }
 
     input {
@@ -489,6 +505,14 @@ img {
         font-size: 13px;
         margin: 10px auto;
         padding: 5px;
+    }
+
+    .contact-us {
+        border-bottom: none;
+    }
+
+    .contact-us p {
+        padding-bottom: 7.5px;
     }
 
     .social-media {
@@ -559,6 +583,7 @@ img {
     .submit-button {
         margin-bottom: 28px;
     }
+
 }
 
  @media (min-width: 1220px) { /* laptops/desktops */
@@ -586,14 +611,40 @@ img {
      .section1 {
         background: url('../images/desktop/slider.jpg') no-repeat center top;
         height: 400px;
+        position: relative;
+     }
+
+     .click1 {
+        display: block;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: 50%;
+        top: 92%;
+        opacity: 0.8;
+        border-radius: 50px;
+        background-color: #3FBF94;
+        border: #3FBF94;
+     }
+
+     .click2 {
+         display: block;
+         height: 20px;
+         width: 20px;
+         position: absolute;
+         left: 52%;
+         top: 92%;
+         opacity: 0.8;
+         border-radius: 50px;
+         background-color: #3FBF94;
+         border: #3FBF94;
      }
 
      .delivery {
        width: 575px;
        background: url('../images/desktop/delivery.jpg') no-repeat center top;
        height: 200px;
-       transition: all 0.3s;
-      }
+    }
 
      .returns {
        background: url('../images/desktop/returns.jpg') no-repeat center top;
@@ -610,10 +661,10 @@ img {
        }
 
      .newsletter {
-      width: 350px;
+          width: 350px;
       }
 
-     /*PRODUCT PAGE STYLING*/
+    /*PRODUCT PAGE STYLING*/
      .t-shirts {
         width: 300px;
      }
