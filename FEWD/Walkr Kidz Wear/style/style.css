@@ -181,6 +181,10 @@ img {
     background-color: #4d4dff;
 }
 
+.card {
+    display: none;
+}
+
 .newsletter {
     border: 2px solid #ccc;
     margin: 15px 10px 0;
@@ -401,38 +405,58 @@ img {
          border-right: none;
      }
 
-     .product1, .newsletter, .social-media {
-         width: 189px;
-         float: none;
+     .product1, .newsletter {
          display: inline-block;
          margin-top: 15px;
+         width: 275px;
+     }
+
+     .product-img {
+         width: 275px;
      }
 
      .product-descr {
          text-align: left;
+         display: block;
+     }
+
+     .product-descr h {
+         font-size: 14px;
+     }
+
+     .product-descr p {
+         font-size: 12px;
+         display: block;
+         margin: 0 auto;
+         padding: 0;
+     }
+
+     .shop-now-btn {
+         margin-top: 7.5px;
      }
 
     .newsletter {
-        margin: 15px 0 10px 10px;
+        margin: 15px 0 10px 30px;
         vertical-align: top;
         padding: 0px 10px;
     }
 
     .newsletter h3 {
-        margin-top: 2px;
-        margin-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         font-size: 16px;
     }
 
     .newsletter p {
-        margin-bottom: 0;
-        margin-top: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
         padding: 0;
         font-size: 12px;
     }
 
+
     .submit-button {
-        margin: 0px auto 7.5px;
+        margin: 7.5px auto 15px;
     }
 
     input {
@@ -489,17 +513,29 @@ img {
          background: url('../images/largescreen/returns.jpg') no-repeat center top;
          }
 
-     .product1,  {
-         width: 250px;
+     .product1, .card, .newsletter  {
+         width: 270px;
+         vertical-align: top;
          }
 
+    .card {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .product-descr h4 {
+        margin: 0 auto;
+    }
+
+
      .newsletter {
-        width: 364px;
+        margin-left: 20px;
         padding: 0 35px;
     }
 
     .newsletter h3 {
-        margin: 10px 0;
+        margin: 15px 0;
         font-size: 18px;
     }
 
@@ -509,14 +545,13 @@ img {
     }
 
     input {
-        width: 250px;
+        width: 220px;
     }
 
     .submit-button {
         margin-top: 15px;
         margin-bottom: 23px;
     }
-
 }
 
  @media (min-width: 1220px) { /* laptops/desktops */
@@ -550,14 +585,29 @@ img {
        background: url('../images/desktop/returns.jpg') no-repeat center top;
        }
 
-     .product1 {
-       width: 350px;
-       margin-left: 0;
-       margin-right: 45px;
-       }
+    .products {
+        text-align: center;
+    }
+
+    .product1 {
+        margin-right: 30px;
+    }
+
+    .card {
+        margin-right: 25px;
+    }
+
+     .product-img {
+       width: 275px;
+     }
+
+     .product-descr {
+        display: block;
+        width: 275px;
+     }
 
      .newsletter {
-          width: 350px;
+          width: 280px;
       }
 
       .newsletter p {
